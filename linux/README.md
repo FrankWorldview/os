@@ -55,6 +55,6 @@ Every directory automatically has multiple hard links. The number of hard links 
 - df -h
 - And more!
 
-  ## 🚨 Difference Between "&&" and ";"
-- && stops the execution if any command fails.
-- ; runs all commands no matter what.
+  ## Difference Between "&&" and ";"
+- `&&`: stops the execution if any command fails.
+- `;`: runs all commands no matter what.
