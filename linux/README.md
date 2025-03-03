@@ -15,12 +15,24 @@
 - sudo snap refresh → Updates all installed Snap packages.
 
 If you want a full upgrade, replacing upgrade with full-upgrade will also install kernel updates and handle dependencies better:
+
 `sudo apt update && sudo apt full-upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
 
 ### Install a Package
 `sudo apt install <package-name>`
 
 ### Query a Package
+- Check If a Package Is Installed
+`dpkg -l | grep <package-name>` or `apt list --installed | grep <package-name>`
+
+- Get Detailed Information About an Installed Package
+dpkg -s <package-name>
+
+- Find Where a Package’s Files Are Installed
+dpkg -L <package-name>
+
+- Query a Package That Is Not Installed
+apt show <package-name>
 
 ### Delete a Package
 Remove a package but keep its configuration files:
@@ -29,7 +41,7 @@ Remove a package but keep its configuration files:
 
 Fully remove a package and its dependencies, and clear APT cache:
 
-`sudo apt purge --auto-remove <packagename> && && sudo apt clean`
+`sudo apt purge --auto-remove <packagename> && sudo apt clean`
 
 ## Directory Hard Links
 Every directory automatically has multiple hard links. The number of hard links in a directory equals:
