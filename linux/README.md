@@ -48,12 +48,11 @@ Every directory automatically has multiple hard links. The number of hard links 
 - The subdirectories
 
 ## System Commands:
-- uname -a
-- lscpu
-- lscpu -e
-- free -m
-- df -h
-- And more!
+- `uname -a` - print system information
+- `lscpu` - display information about the CPU architecture
+- `lscpu -e` - display the CPU information in human-readable format
+- `free -m` - display amount of free and used memory in the system
+- `df -h` - report file system space usage
 
 ## Difference Between "&&" and ";"
 - `&&`: stops the execution if any command fails.
