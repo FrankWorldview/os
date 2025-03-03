@@ -54,3 +54,7 @@ Every directory automatically has multiple hard links. The number of hard links 
 - free -m
 - df -h
 - And more!
+
+  ## 🚨 Difference Between "&&" and ";"
+- && stops the execution if any command fails.
+- ; runs all commands no matter what.
