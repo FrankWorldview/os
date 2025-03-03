@@ -18,10 +18,10 @@
 
 - Settings -> Power -> Power Saving -> Screen Blank -> Never
 
-- Traditional Chinese imput methods (Chewing): https://ivonblog.com/posts/ubuntu-fcitx5/
--- `sudo apt install fcitx5 fcitx5-chinese-addons fcitx5-chewing`
--- `im-config`
--- `reboot`
--- Config fcitx5
+- Traditional Chinese imput methods (Chewing): [Reference](https://ivonblog.com/posts/ubuntu-fcitx5/)
+  - `sudo apt install fcitx5 fcitx5-chinese-addons fcitx5-chewing`
+  - `im-config`
+  - `reboot`
+  - Config fcitx5
 
 - Edit .nanorc: `set tabsize 4`
