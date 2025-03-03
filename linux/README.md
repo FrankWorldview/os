@@ -24,11 +24,11 @@ If you want a full upgrade, replacing upgrade with full-upgrade will also instal
 ### Query a Package
 - Check if a package is installed: `dpkg -l | grep <package-name>` or `apt list --installed | grep <package-name>`
 
-- Get detailed information about an installed package: dpkg -s <package-name>
+- Get detailed information about an installed package: `dpkg -s <package-name>`
 
-- Find where a package's files are installed: dpkg -L <package-name>
+- Find where a package's files are installed: `dpkg -L <package-name>`
 
-- Query a package that is not installed: apt show <package-name>
+- Query a package that is not installed: `apt show <package-name>`
 
 ### Delete a Package
 Remove a package but keep its configuration files:
