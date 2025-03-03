@@ -17,11 +17,19 @@
 If you want a full upgrade, replacing upgrade with full-upgrade will also install kernel updates and handle dependencies better:
 `sudo apt update && sudo apt full-upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
 
+### Install a Package
+`sudo apt install <package-name>`
+
+### Query a Package
+
 ### Delete a Package
-If you want to remove the package but keep its configuration files, use:
+Remove a package but keep its configuration files:
+
 `sudo apt remove <package-name>`
 
-sudo apt purge --auto-remove <packagename>
+Fully remove a package and its dependencies, and clear APT cache:
+
+`sudo apt purge --auto-remove <packagename> && && sudo apt clean`
 
 ## Directory Hard Links
 Every directory automatically has multiple hard links. The number of hard links in a directory equals:
