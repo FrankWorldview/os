@@ -55,6 +55,14 @@ Every directory automatically has multiple hard links. The number of hard links 
 - df -h
 - And more!
 
-  ## Difference Between "&&" and ";"
+## Difference Between "&&" and ";"
 - `&&`: stops the execution if any command fails.
 - `;`: runs all commands no matter what.
+
+## Umask
+Common umask Values and Their Effects
+umask	File Default (666 - umask)	Directory Default (777 - umask)	Effect
+0000	666 (rw-rw-rw-)	777 (rwxrwxrwx)	Fully open access (not recommended)
+0022	644 (rw-r--r--)	755 (rwxr-xr-x)	Default for most Linux systems
+0077	600 (rw-------)	700 (rwx------)	Private (only owner has access)
+0027	640 (rw-r-----)	750 (rwxr-x---)	Group access, others denied
