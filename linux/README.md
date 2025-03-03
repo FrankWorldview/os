@@ -60,7 +60,7 @@ Every directory automatically has multiple hard links. The number of hard links 
 - `;`: runs all commands no matter what.
 
 ## Common umask Values and Their Effects
-When you create a file or directory, the system applies a default permission but subtracts the value of umask.
+umask (short for user file-creation mode mask) is a command that determines the default permissions for newly created files and directories. When you create a file or directory, the system applies a default permission but subtracts the value of umask.
 
 `Final Permission = Default Permission - umask`
 
