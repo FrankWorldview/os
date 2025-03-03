@@ -14,6 +14,13 @@ Package Managment:
 If you want a full upgrade, replacing upgrade with full-upgrade will also install kernel updates and handle dependencies better:
 `sudo apt update && sudo apt full-upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
 
+Directory Hard Links
+Every directory automatically has multiple hard links. The number of hard links in a directory equals:
+`2 + (number of subdirectories)`
+- The directory itself (.)
+- Its parent directory reference (..)
+- The subdirectories
+
 Some system commands:
 - uname -a
 - lscpu
