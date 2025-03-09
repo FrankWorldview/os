@@ -1,8 +1,8 @@
 # Linux (Ubuntu)
 
 ## Online Learning Resources
-- [Linux Journey](https://linuxjourney.com/)
 - [Unix / Linux for Beginners](https://www.tutorialspoint.com/unix/index.htm)
+- [Linux Journey](https://linuxjourney.com/)
 - [鳥哥私房菜](https://linux.vbird.org/)
 
 ## Package Managment
