@@ -28,4 +28,4 @@
 `sudo a2dismod userdir` # Disable the module (mod_userdir)
 
 ## Download a Website
-`wget -r -np -nH --cut-dirs=1 <website_url>`
+`wget --mirror --convert-links --adjust-extension --page-requisites --no-parent -P <destination_folder> <website_url>`
