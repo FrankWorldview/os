@@ -59,6 +59,7 @@ Every directory automatically has multiple hard links. The number of hard links 
 - `uname -a` - print system information
 - `lscpu` - display information about the CPU architecture
 - `lscpu -e` - display the CPU information in human-readable format
+- `top` - display processes
 - `free -m` - display amount of free and used memory in the system
 - `df -h` - report file system space usage
 
