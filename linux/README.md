@@ -1,8 +1,9 @@
 # Linux (Ubuntu)
 
 ## Online Learning Resources
-- [Unix / Linux for Beginners](https://www.tutorialspoint.com/unix/index.htm)
+- [The Linux Command Line (by William Shotts)](https://linuxcommand.org/)
 - [Linux Journey](https://linuxjourney.com/)
+- [Unix / Linux for Beginners](https://www.tutorialspoint.com/unix/index.htm)
 - [鳥哥私房菜](https://linux.vbird.org/)
 
 ## Package Managment
