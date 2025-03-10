@@ -77,3 +77,11 @@ umask (short for user file-creation mode mask) is a command that determines the 
 | 0022 | 644 (rw-r--r--) | 755 (rwxr-xr-x) | Default for most Linux systems |
 | 0077 | 600 (rw-------) | 700 (rwx------) | Private (only owner has access) |
 | 0027 | 640 (rw-r-----) | 750 (rwxr-x---) | Group access, others denied |
+
+## Change Tab Size of nano:
+Edit ~/.nanorc and add: `set tabsize 4`
+
+## Java and Pytohn
+sudo apt install openjdk-21-jdk
+
+sudo apt install python3
