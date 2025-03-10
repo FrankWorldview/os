@@ -41,11 +41,11 @@ Fully remove a package and its dependencies, and clear APT cache:
 `sudo apt purge --auto-remove <packagename> && sudo apt clean`
 
 ## Shortcuts
-- .: working directory itself
-- ..: working directory's parent directory
-- ~: home directory
-- ~user_name: home directory of the specified user
-- -: previous directory
+- ".": working directory itself
+- "..": working directory's parent directory
+- "~": home directory
+- "~user_name": home directory of the specified user
+- "-": previous directory
 
 ## Directory Hard Links
 Every directory automatically has multiple hard links. The number of hard links in a directory equals:
