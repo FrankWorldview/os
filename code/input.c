@@ -5,7 +5,7 @@ int main() {
 
     // Prompt for input
     printf("Enter a number: ");
-    scanf("%d", &number);  // Read an integer
+    scanf("%d", &number); // Read an integer
 
     // Output result
     printf("Your input: %d\n", number);
