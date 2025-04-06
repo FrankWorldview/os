@@ -53,7 +53,6 @@ By the end of this project, you will understand:
 ### Set Permissions and Ownership
 - `sudo chmod 755 /var/www/wordpress`
 - `sudo chown -R www-data:www-data /var/www/wordpress`
-- `rm -rf /tmp/wordpress`
 
 ### Configure WordPress
 
