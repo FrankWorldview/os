@@ -25,5 +25,14 @@ By the end of this project, you will understand:
 
 ### Install MySQL Server
 - `sudo apt install mysql-server`
-- `sudo systemctl enable mysql
-- `sudo systemctl start mysql
+- `sudo systemctl enable mysql` # Optional
+- `sudo systemctl start mysql`
+
+### Create a MySQL Database and User for WordPress
+- Log into MySQL:`sudo mysql`
+- Inside the MySQL prompt, run:
+- `CREATE USER 'wpadmin'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';`
+- `CREATE DATABASE wordpress_db;`
+- `GRANT ALL PRIVILEGES ON wordpress_db.* TO 'wpadmin'@'localhost';`
+- `FLUSH PRIVILEGES;`
+- `EXIT;`
