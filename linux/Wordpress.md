@@ -1,6 +1,6 @@
 # Practical Project: Understanding OS Services in Action: Deploying a Local WordPress Server on Ubuntu
 
-## Objective
+## Objectives
 In this practical project, you will manually deploy a WordPress website on Ubuntu using the LAMP stack (Linux, Apache, MySQL, PHP). This exercise focuses on how operating systems manage services, processes, users, and file permissions in a real-world web application environment.
 
 By the end of this project, you will understand:
@@ -29,7 +29,7 @@ By the end of this project, you will understand:
 - `sudo systemctl enable mysql` # Optional
 - `sudo systemctl start mysql`
 
-### Create a MySQL Database and User for WordPress
+### Create a MySQL Database and a User for WordPress
 - Log into MySQL:`sudo mysql`
 - Inside the MySQL prompt, run:
 - `CREATE USER 'wpadmin'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';`
@@ -47,12 +47,13 @@ By the end of this project, you will understand:
 - `wget https://wordpress.org/latest.tar.gz`
 - `tar -xvzf latest.tar.gz`
 
-### Move WordPress Files
+### Copy WordPress Files
 - `sudo cp -r wordpress/. /var/www/wordpress/`
 
 ### Set Permissions and Ownership
 - `sudo chmod 755 /var/www/wordpress`
 - `sudo chown -R www-data:www-data /var/www/wordpress`
+- `rm -rf /tmp/wordpress`
 
 ### Configure WordPress
 
