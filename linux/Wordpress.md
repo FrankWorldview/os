@@ -64,7 +64,10 @@ By the end of this project, you will understand:
 - `DB_USER`: `wpadmin`
 - `DB_PASSWORD`: `<your-password>`
 
+### Setup phpMyAdmin
+- `sudo apt install phpmyadmin`
+- `sudo nano /etc/apache2/apache2.conf` add this line at the bottom: `Include /etc/phpmyadmin/apache.conf`
+- `sudo systemctl restart apache2`
 
-### Ref
+### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
-
