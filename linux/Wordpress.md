@@ -55,4 +55,8 @@ By the end of this project, you will understand:
 - `sudo chown -R www-data:www-data /var/www/wordpress`
 
 ### Configure WordPress
+- `cd /var/www/wordpress`
+- `sudo cp wp-config-sample.php wp-config.php`
+- `sudo chown www-data:www-data wp-config.php`
+- `sudo nano wp-config.php`
 
