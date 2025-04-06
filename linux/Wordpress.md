@@ -54,3 +54,5 @@ By the end of this project, you will understand:
 - `sudo chmod 755 /var/www/wordpress`
 - `sudo chown -R www-data:www-data /var/www/wordpress`
 
+### Configure WordPress
+
