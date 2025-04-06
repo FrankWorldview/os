@@ -69,15 +69,15 @@ By the end of this project, you will understand:
 - Open a browser and visit: `http://localhost`
 - Admin page: `http://localhost/wp-admin`
 
-### Setup phpMyAdmin
+### Play with WordPress
+- Post articles
+- Change the theme
+
+- ### Setup phpMyAdmin
 - `sudo apt install phpmyadmin`
 - `sudo nano /etc/apache2/apache2.conf` and add this line at the bottom: `Include /etc/phpmyadmin/apache.conf`
 - `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost/phpmyadmin`
-
-### Play with WordPress
-- Post articles
-- Change the theme
 
 ### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
