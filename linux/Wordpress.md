@@ -20,6 +20,7 @@ By the end of this project, you will understand:
 
 ### Configure Apache Web Server
 - `sudo nano /etc/apache2/sites-available/000-default.conf` and change `DocumentRoot` to `/var/www/wordpress`
+- `sudo mkdir /var/www/wordpress`
 - Restart Apache: `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost`
 
