@@ -19,8 +19,8 @@ By the end of this project, you will understand:
 - `sudo systemctl start apache2`
 
 ### Configure Apache Web Server
-- ServerName # Backup
-- `sudo nano /etc/apache2/sites-available/000-default.conf` and change `DocumentRoot` to `/var/www/wordpress` #Backup!!!
+- `sudo nano /etc/apache2/apache2.conf` and add `ServerName localhost` # Optional: Backup the file first.
+- `sudo nano /etc/apache2/sites-available/000-default.conf` and change `DocumentRoot` to `/var/www/wordpress` # Optional: Backup the file first.
 - `sudo mkdir /var/www/wordpress`
 - Restart Apache: `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost`
@@ -33,7 +33,7 @@ By the end of this project, you will understand:
 ### Create a MySQL Database and a User for WordPress
 - Log into MySQL:`sudo mysql`
 - Inside the MySQL prompt, run:
-- `CREATE USER 'wpadmin'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';`
+- `CREATE USER 'wpadmin'@'localhost' IDENTIFIED WITH mysql_native_password BY '<your-password>';`
 - `CREATE DATABASE wordpress_db;`
 - `GRANT ALL PRIVILEGES ON wordpress_db.* TO 'wpadmin'@'localhost';`
 - `FLUSH PRIVILEGES;`
@@ -62,7 +62,7 @@ By the end of this project, you will understand:
 - `sudo nano wp-config.php` and change:
 - `DB_NAME`: `wordpress_db`
 - `DB_USER`: `wpadmin`
-- `DB_PASSWORD`: `your_password`
+- `DB_PASSWORD`: `<your-password>`
 
 
 ### Ref
