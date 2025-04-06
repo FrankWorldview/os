@@ -49,7 +49,7 @@ By the end of this project, you will understand:
 - `tar -xvzf latest.tar.gz`
 
 ### Copy WordPress Files
-- `sudo cp -r wordpress/. /var/www/wordpress/`
+- `sudo cp -r wordpress/. /var/www/wordpress/` # "." means all files including hidden files
 
 ### Set Permissions and Ownership
 - `sudo chmod 755 /var/www/wordpress`
