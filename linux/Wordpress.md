@@ -11,10 +11,10 @@ By the end of this project, you will understand:
 
 ## Step-by-Step Setup Instructions
 ### Update Your System
-  - `sudo apt update && sudo apt upgrade -y`
+- `sudo apt update && sudo apt upgrade -y`
 
 ### Install Apache Web Server
-  - `sudo apt install apache2`
+- `sudo apt install apache2`
   - `sudo systemctl enable apache2` # Optional
   - `sudo systemctl start apache2`
 
@@ -22,3 +22,8 @@ By the end of this project, you will understand:
   - `sudo nano /etc/apache2/sites-available/000-default.conf` and change `DocumentRoot` to `/var/www/wordpress`
   - `sudo systemctl restart apache2`
   - Open a browser and visit: `http://localhost`
+
+### Install MySQL Server
+  - `sudo apt install mysql-server`
+- `sudo systemctl enable mysql
+- `sudo systemctl start mysql
