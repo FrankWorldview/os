@@ -14,17 +14,17 @@ By the end of this project, you will understand:
 - `sudo apt update && sudo apt upgrade -y`
 
 ### Install Apache Web Server
-- `sudo apt install apache2`
+- `sudo apt install apache2 -y`
 - `sudo systemctl enable apache2` # Optional
 - `sudo systemctl start apache2`
 
 ### Configure Apache Web Server
 - `sudo nano /etc/apache2/sites-available/000-default.conf` and change `DocumentRoot` to `/var/www/wordpress`
-- `sudo systemctl restart apache2`
+- Restart Apache: `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost`
 
 ### Install MySQL Server
-- `sudo apt install mysql-server`
+- `sudo apt install mysql-server -y`
 - `sudo systemctl enable mysql` # Optional
 - `sudo systemctl start mysql`
 
@@ -36,3 +36,20 @@ By the end of this project, you will understand:
 - `GRANT ALL PRIVILEGES ON wordpress_db.* TO 'wpadmin'@'localhost';`
 - `FLUSH PRIVILEGES;`
 - `EXIT;`
+
+### Install PHP and Required Extensions
+- `sudo apt install php php-mysql libapache2-mod-php php-cli php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip unzip -y`
+- Restart Apache: `sudo systemctl restart apache2`
+
+### Download and Extract WordPress
+- `cd /tmp`
+- `wget https://wordpress.org/latest.tar.gz`
+- `tar -xvzf latest.tar.gz`
+
+### Move WordPress Files
+- `sudo cp -r wordpress/. /var/www/wordpress/`
+
+### Set Permissions and Ownership
+`sudo chmod 755 /var/www/wordpress`
+`sudo chown -R www-data:www-data /var/www/wordpress`
+
