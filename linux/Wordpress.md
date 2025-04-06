@@ -73,7 +73,7 @@ By the end of this project, you will understand:
 - Post articles
 - Change the theme
 
-- ### Setup phpMyAdmin
+### Setup phpMyAdmin
 - `sudo apt install phpmyadmin`
 - `sudo nano /etc/apache2/apache2.conf` and add this line at the bottom: `Include /etc/phpmyadmin/apache.conf`
 - `sudo systemctl restart apache2`
