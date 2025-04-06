@@ -40,7 +40,7 @@ By the end of this project, you will understand:
 - `EXIT;`
 
 ### Install PHP and Required Extensions
-- `sudo apt install php8.3 php8.3-mysql libapache2-mod-php8.3 php8.3-cli php8.3-curl php8.3-gd php8.3-mbstring php8.3-xml php8.3-soap php8.3-intl php8.3-zip unzip -y`
+- `sudo apt install php8.3 php8.3-mysql libapache2-mod-php8.3 php8.3-cli php8.3-curl php8.3-gd php8.3-mbstring php8.3-xml php8.3-soap php8.3-intl php8.3-zip unzip`
 - Restart Apache: `sudo systemctl restart apache2`
 
 ### Download and Extract WordPress
