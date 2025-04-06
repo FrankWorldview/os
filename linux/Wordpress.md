@@ -1,5 +1,4 @@
-# Practical Project
-Understanding OS Services in Action: Deploying a Local WordPress Server on Ubuntu
+# Practical Project: Understanding OS Services in Action: Deploying a Local WordPress Server on Ubuntu
 
 ## Objective
 In this practical project, you will manually deploy a WordPress website on Ubuntu using the LAMP stack (Linux, Apache, MySQL, PHP). This exercise focuses on how operating systems manage services, processes, users, and file permissions in a real-world web application environment.
