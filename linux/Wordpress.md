@@ -58,5 +58,12 @@ By the end of this project, you will understand:
 - `cd /var/www/wordpress`
 - `sudo cp wp-config-sample.php wp-config.php`
 - `sudo chown www-data:www-data wp-config.php`
-- `sudo nano wp-config.php`
+- `sudo nano wp-config.php` and change:
+- `DB_NAME`: `wordpress_db`
+- `DB_USER`: `wpadmin`
+- `DB_PASSWORD`: `your_password`
+
+
+### Ref
+https://developer.wordpress.org/advanced-administration/before-install/howto-install/
 
