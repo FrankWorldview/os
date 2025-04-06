@@ -50,6 +50,6 @@ By the end of this project, you will understand:
 - `sudo cp -r wordpress/. /var/www/wordpress/`
 
 ### Set Permissions and Ownership
-`sudo chmod 755 /var/www/wordpress`
-`sudo chown -R www-data:www-data /var/www/wordpress`
+- `sudo chmod 755 /var/www/wordpress`
+- `sudo chown -R www-data:www-data /var/www/wordpress`
 
