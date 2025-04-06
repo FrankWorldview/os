@@ -11,10 +11,10 @@ By the end of this project, you will understand:
 
 ## Step-by-Step Setup Instructions
 ### Update Your System
-- `sudo apt update && sudo apt upgrade -y`
+- `sudo apt update && sudo apt upgrade`
 
 ### Install Apache Web Server
-- `sudo apt install apache2 -y`
+- `sudo apt install apache2`
 - `sudo systemctl enable apache2` # Optional
 - `sudo systemctl start apache2`
 
@@ -26,7 +26,7 @@ By the end of this project, you will understand:
 - Open a browser and visit: `http://localhost`
 
 ### Install MySQL Server
-- `sudo apt install mysql-server -y`
+- `sudo apt install mysql-server`
 - `sudo systemctl enable mysql` # Optional
 - `sudo systemctl start mysql`
 
@@ -40,7 +40,7 @@ By the end of this project, you will understand:
 - `EXIT;`
 
 ### Install PHP and Required Extensions
-- `sudo apt install php php-mysql libapache2-mod-php php-cli php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip unzip -y`
+- `sudo apt install php php-mysql libapache2-mod-php php-cli php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip unzip`
 - Restart Apache: `sudo systemctl restart apache2`
 
 ### Download and Extract WordPress
