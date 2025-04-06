@@ -38,7 +38,7 @@ Remove a package but keep its configuration files:
 
 Fully remove a package and its dependencies, and clear APT cache:
 
-`sudo apt purge --auto-remove <packagename> && sudo apt clean`
+`sudo apt purge <package-name> && sudo apt autoremove && sudo apt clean`
 
 ## Shortcuts
 - ".": working directory itself
