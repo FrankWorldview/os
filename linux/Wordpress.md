@@ -68,6 +68,7 @@ By the end of this project, you will understand:
 - `sudo apt install phpmyadmin`
 - `sudo nano /etc/apache2/apache2.conf` and add this line at the bottom: `Include /etc/phpmyadmin/apache.conf`
 - `sudo systemctl restart apache2`
+- Open a browser and visit: `http://localhost/phpmyadmin`
 
 ### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
