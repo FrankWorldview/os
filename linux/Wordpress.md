@@ -87,5 +87,9 @@ By the end of this project, you will understand:
 - `tail -f /var/log/apache2/access.log` # View access log
 - `tail -n 50 /var/log/apache2/error.log` # View error log
 
+### Inspect Apache-related Processes and Threads
+- `ps -ef | grep apache` # Lists all processes (-e for all, -f for full info)
+- `ps -eLf | grep apache` # Lists all threads of all processes (L = LWP = Light Weight Processes)
+
 ### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
