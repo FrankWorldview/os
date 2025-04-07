@@ -107,5 +107,5 @@ By the end of this project, you will understand:
 | `php8.3-zip`            | Zip file support (plugin/theme uploads)                   | ✅ Yes                  |
 | `unzip`                 | Command-line utility to extract `.zip` files              | ✅ Yes                  |
 
-### Reference
+### References
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
