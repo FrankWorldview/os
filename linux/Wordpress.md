@@ -91,5 +91,21 @@ By the end of this project, you will understand:
 - `ps -ef | grep apache` # Lists all processes (-e for all, -f for full format)
 - `ps -eLf | grep apache` # Lists all threads of all processes (L = LWP = Light Weight Processes)
 
+### 📦 PHP 8.3 Packages and Their Purposes
+| Package Name            | Purpose / Description                                     | Required for WordPress? |
+|-------------------------|-----------------------------------------------------------|-------------------------|
+| `php8.3`                | Core PHP interpreter                                      | ✅ Yes                  |
+| `php8.3-mysql`          | MySQL database integration (`mysqli`, `PDO`)              | ✅ Yes                  |
+| `libapache2-mod-php8.3` | PHP module for Apache2 web server                         | ✅ Yes                   |
+| `php8.3-cli`            | Command-line PHP interface                                | ✅ Highly recommended    |
+| `php8.3-curl`           | HTTP requests from PHP (`curl_exec`, `wp_remote_get`)     | ✅ Yes                   |
+| `php8.3-gd`             | Image processing (thumbnails, resizing, etc.)             | ✅ Yes                   |
+| `php8.3-mbstring`       | Multibyte string handling (UTF-8, non-English content)    | ✅ Yes                   |
+| `php8.3-xml`            | XML parsing and DOM support (feeds, plugins, etc.)        | ✅ Yes                   |
+| `php8.3-soap`           | SOAP web service support                                  | ⚠️ Optional              |
+| `php8.3-intl`           | Internationalization (locale, date/time, transliteration) | ⚠️ Optional              |
+| `php8.3-zip`            | Zip file support (plugin/theme uploads)                   | ✅ Yes                   |
+| `unzip`                 | Command-line utility to extract `.zip` files              | ✅ Yes                   |
+
 ### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
