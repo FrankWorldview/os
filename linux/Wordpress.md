@@ -79,5 +79,12 @@ By the end of this project, you will understand:
 - `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost/phpmyadmin`
 
+### Apache2 Commands
+- `sudo tail -n 50 /var/log/apache2/error.log` # View error log
+- `sudo tail -n 50 /var/log/apache2/access.log` # View access log
+- `sudo systemctl start apache2` # Start Apache service
+- `sudo systemctl status apache2` # Check Apache's status
+- `sudo systemctl restart apache2` # Restart Apache
+
 ### Reference
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
