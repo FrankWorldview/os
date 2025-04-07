@@ -65,21 +65,21 @@ By the end of this project, you will understand:
 - `DB_USER`: `wpadmin`
 - `DB_PASSWORD`: `<your-password>`
 
-### Test WordPress
+### ⚙️ Test WordPress
 - Open a browser and visit: `http://localhost`
 - Admin page: `http://localhost/wp-admin`
 
-### Play with WordPress
+### ⚙️ Play with WordPress
 - Post articles
 - Change the theme
 
-### Setup phpMyAdmin
+### 🔧 Setup phpMyAdmin
 - `sudo apt install phpmyadmin`
 - `sudo nano /etc/apache2/apache2.conf` and add this line at the bottom: `Include /etc/phpmyadmin/apache.conf`
 - `sudo systemctl restart apache2`
 - Open a browser and visit: `http://localhost/phpmyadmin`
 
-### Apache2 Commands
+### 🔧 Apache2 Commands
 - `sudo systemctl start apache2` # Start Apache service
 - `sudo systemctl status apache2` # Check Apache's status
 - `sudo systemctl restart apache2` # Restart Apache service
@@ -87,11 +87,11 @@ By the end of this project, you will understand:
 - `tail -f /var/log/apache2/access.log` # View access log
 - `tail -n 50 /var/log/apache2/error.log` # View error log
 
-### Inspect Apache-related Processes and Threads
+### 🔧 Inspect Apache-related Processes and Threads
 - `ps -ef | grep apache` # Lists all processes (-e for all, -f for full format)
 - `ps -eLf | grep apache` # Lists all threads of all processes (L = LWP = Light Weight Processes)
 
-### PHP 8.3 Packages and Their Purposes
+### 🔧 PHP 8.3 Packages and Their Purposes
 | Package Name            | Purpose / Description                                     | Required for WordPress? |
 |-------------------------|-----------------------------------------------------------|-------------------------|
 | `php8.3`                | Core PHP interpreter                                      | ✅ Yes                  |
@@ -107,5 +107,5 @@ By the end of this project, you will understand:
 | `php8.3-zip`            | Zip file support (plugin/theme uploads)                   | ✅ Yes                  |
 | `unzip`                 | Command-line utility to extract `.zip` files              | ✅ Yes                  |
 
-### References
+## 🌐 References
 https://developer.wordpress.org/advanced-administration/before-install/howto-install/
