@@ -70,8 +70,8 @@ By the end of this project, you will understand:
 - Admin page: `http://localhost/wp-admin`
 
 ### ⚙️ Play with WordPress
-- Post articles
-- Change the theme
+- Create and publish posts
+- Change the site theme
 
 ## 🌐 Deep Dive
 ### ⚙️ Setup phpMyAdmin
