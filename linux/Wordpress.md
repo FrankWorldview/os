@@ -88,7 +88,7 @@ By the end of this project, you will understand:
 - `tail -n 50 /var/log/apache2/error.log` # View error log
 
 ### Inspect Apache-related Processes and Threads
-- `ps -ef | grep apache` # Lists all processes (-e for all, -f for full info)
+- `ps -ef | grep apache` # Lists all processes (-e for all, -f for full format)
 - `ps -eLf | grep apache` # Lists all threads of all processes (L = LWP = Light Weight Processes)
 
 ### Reference
