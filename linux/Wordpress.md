@@ -92,7 +92,7 @@ By the end of this project, you will understand:
 - `ps -ef | grep apache` # Lists all processes (-e for all, -f for full format)
 - `ps -eLf | grep apache` # Lists all threads of all processes (L = LWP = Light Weight Processes)
 
-### Backup and Restore
+### ⚙️ Backup and Restore
 - Try this shell script: https://github.com/FrankWorldview/os/blob/main/code/backup.sh
 
 ### ⚙️ PHP 8.3 Packages and Their Purposes
