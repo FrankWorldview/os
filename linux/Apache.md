@@ -8,9 +8,9 @@
 
 `sudo systemctl status apache2` # Check Apache's status
 
-`sudo systemctl restart apache2` # Restart Apache
+`sudo systemctl restart apache2` # Restart Apache service
 
-`sudo systemctl stop apache2` # Stop Apache
+`sudo systemctl stop apache2` # Stop Apache service
 
 `/etc/apache2/apache2.conf` # Apache's main config file
 
