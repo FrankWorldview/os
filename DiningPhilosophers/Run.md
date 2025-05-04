@@ -49,6 +49,7 @@ javac -version
 
 ```bash
 javac DiningPhilosophersDemo.java
+```
 
 ## ✅ Step 4: Run the Program
 
