@@ -1,5 +1,7 @@
 # 🍽️ Dining Philosophers in Java: Discussion Notes
 
+---
+
 ## 1. Why `notifyAll()` is Safer Than `notify()`
 
 In **solution 1**, using `notify()` wakes **only one waiting philosopher**, and there's **no control** over which thread is awakened. If the awakened philosopher is **not eligible to eat** (i.e., one of her neighbors is currently eating), she will return to `wait()` — and **no progress is made**.
@@ -10,7 +12,7 @@ Using `notifyAll()` wakes **all waiting philosophers**, allowing **any eligible 
 
 ---
 
-## 2. Comparing Solution 1 (`synchronized`) and Solution 3 (`ReentrantLock + Condition`)
+## 2. Comparing Solution 1 and Solution 3
 
 | Aspect               | Solution 1: `synchronized` + `wait()` / `notifyAll()` | Solution 3: `ReentrantLock` + `Condition[]`           |
 |----------------------|--------------------------------------------------------|--------------------------------------------------------|
@@ -25,7 +27,24 @@ Using `notifyAll()` wakes **all waiting philosophers**, allowing **any eligible 
 
 ---
 
-## 3. Starvation Awareness (All Solutions)
+## 3. Full Comparison: All Three Solutions
+
+| Feature                     | Solution 1: `synchronized` | Solution 2: `Semaphore` | Solution 3: `ReentrantLock + Condition[]` |
+|-----------------------------|-----------------------------|--------------------------|-------------------------------------------|
+| **Deadlock-Free**           | ✅ Yes (with `notifyAll`)   | ✅ Yes (if acquisition order breaks circular wait) | ✅ Yes (with proper `test()` logic)        |
+| **Starvation-Free**         | ❌ No                        | ❌ No                    | ❌ No                                     |
+| **Fairness Support**        | ❌ No                        | ⚠️ Not by default        | ✅ Yes (`ReentrantLock(true)`)             |
+| **API Simplicity**          | ✅ Easiest to write          | ✅ Moderate              | ❌ More verbose and manual                |
+| **Custom Waiting Logic**    | ❌ Global wait/notify        | ❌ None (block on chopstick) | ✅ Individual condition objects        |
+| **Explicit Lock Control**   | ❌ Implicit (`synchronized`) | ❌ N/A                   | ✅ Explicit locking/unlocking             |
+| **Resource Granularity**    | ❌ All or nothing            | ✅ One chopstick at a time | ✅ Logical-level resource coordination  |
+| **Educational Clarity**     | ✅ Great for learning         | ✅ Simple logic          | ✅ Advanced concurrency concept           |
+
+> 🧠 **Conclusion:** All three are valid, but they demonstrate different trade-offs in concurrency control.
+
+---
+
+## 4. Starvation Awareness (All Solutions)
 
 None of the current implementations are guaranteed to be **starvation-free**.
 
@@ -48,6 +67,6 @@ Even with fair locking (as in `ReentrantLock(true)`), a philosopher might:
 - ✅ All three solutions are **deadlock-free** as implemented.
 - ❌ None are **starvation-free** without further logic.
 - `notifyAll()` is critical in monitor-style implementations to ensure **no missed progress**.
-- `ReentrantLock + Condition` allows more control and better scalability for complex cases.
+- `ReentrantLock + Condition[]` allows more control and better scalability for complex cases.
 
 ---
