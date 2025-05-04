@@ -16,6 +16,7 @@ After installation, verify it works:
 ```bash
 java -version
 javac -version
+```
 
 ## ✅ Step 2: Install Visual Studio Code and Java Extensions
 
