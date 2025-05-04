@@ -49,3 +49,13 @@ javac -version
 
 ```bash
 javac DiningPhilosophersDemo.java
+
+## ✅ Step 4: Run the Program
+
+After compiling the code, you can run the Dining Philosophers demo from the terminal.
+
+1. In the same folder where `DiningPhilosophersDemo.class` is located, run:
+
+```bash
+java DiningPhilosophersDemo
+
