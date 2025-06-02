@@ -1,3 +1,54 @@
+## 🧠 Understanding Cylinders, Tracks, and Surfaces on an HDD
+
+> A **cylinder** is a set of **tracks** located at the same radius across **all platter surfaces** in a hard disk drive (HDD).
+
+---
+
+### 📚 Key Definitions
+
+- **Platter**: A circular disk inside the HDD that stores data.
+- **Surface**: Each platter has two surfaces (top and bottom), and each surface contains tracks.
+- **Track**: A circular path on a surface where data is recorded.
+- **Cylinder**: All tracks at the same radius across all surfaces.  
+  Think of it as a "vertical slice" through all platters.
+
+---
+
+### 📏 Example
+
+Suppose a hard drive has:
+
+- `3` platters  
+- `2` surfaces per platter (top and bottom) → `3 x 2 = 6` total surfaces  
+- `100` tracks per surface  
+
+Then:
+
+- ✅ Each surface has `100` concentric tracks (Track 0 to Track 99)
+- ✅ There are **100 cylinders** total
+- ✅ Each cylinder consists of `6` tracks — one per surface — all at the same radius
+
+---
+
+### 🧱 Structure Overview
+
+| Component            | Count         |
+|----------------------|---------------|
+| Platters             | 3             |
+| Surfaces (Heads)     | 6             |
+| Tracks per Surface   | 100           |
+| ✅ Total Cylinders    | **100**       |
+
+---
+
+### ✅ TL;DR
+
+> If a surface has `N` tracks, then the HDD has exactly `N` **cylinders** —  
+> because cylinders are defined by **track radius**, not by number of surfaces.  
+> More surfaces = more data per cylinder, but **not more cylinders**.
+
+---
+
 ## ✅ Correct Logical Block Mapping Order on an HDD
 
 > **Logical blocks** (as seen by the operating system) are mapped to **physical sectors** on the HDD in a sequential, spatially optimized order to maximize performance and minimize head movement.
