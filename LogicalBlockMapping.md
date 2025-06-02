@@ -36,4 +36,4 @@
 > Logical blocks are mapped from **outermost to innermost cylinder**,  
 > **surface by surface**, **track by track**,  
 > and **sector by sector** — in that order —  
-> to minimise latency and maximise throughput.
+> to minimise latency and maximize throughput.
