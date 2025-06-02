@@ -49,7 +49,7 @@ Then:
 
 ---
 
-## ✅ Correct Logical Block Mapping Order on an HDD
+## 🧠 Understanding Logical Block Mapping Order on an HDD
 
 > **Logical blocks** (as seen by the operating system) are mapped to **physical sectors** on the HDD in a sequential, spatially optimized order to maximize performance and minimize head movement.
 
