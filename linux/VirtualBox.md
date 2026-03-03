@@ -1,4 +1,4 @@
-- Increase video RAM; Bridged networking; USB 3.0
+- Increase video RAM; Choose Bridged networking or NAT; Choose USB 3.0
 
 - `update-manager &` then reboot
 
