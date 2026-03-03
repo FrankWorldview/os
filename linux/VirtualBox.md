@@ -1,5 +1,3 @@
-(- Install C:\Program Files\Oracle\VirtualBox\drivers\vboxsup\VBoxSup.inf)
-
 - Increase video RAM; Bridged networking; USB 3.0
 
 - `update-manager &` then reboot
@@ -7,6 +5,8 @@
 - Change the setting of Software Updater: "Display immediately"
 
 - Optional step: `sudo apt update && sudo apt upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
+
+- `sudo apt update && sudo apt upgrade`
 
 - `sudo apt install bzip2`
 
