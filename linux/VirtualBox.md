@@ -26,8 +26,14 @@
   - `reboot`
   - Config fcitx5: Uncheck "Only Show Current Language" and add new input methods (e.g., Chewing).
 
+- Edit .nanorc: `set tabsize 4`
+
+- `sudo apt install joe` # If you need the joe editor
+
+- cp /etc/joe/joerc ~/.joerc # Copy the global joe settings file to home
+
+- Adjust ~/.joerc as you like.
+
 - `sudo apt update && sudo apt upgrade` # Every time before installing new packages
 
 - `sudo apt install libreoffice` # If you need LibreOffice
- 
-- Edit .nanorc: `set tabsize 4`
