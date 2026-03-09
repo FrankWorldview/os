@@ -1,6 +1,6 @@
 # Installing Ubuntu on Mac
 
-The three solutions might work for Mac + Ubuntu.
+The three solutions might work on Mac + Ubuntu.
 
 Solution 1: Please see the [article](https://hackmd.io/@cpt/MacBook_VBox_Ubuntu_for_ARM).
 
