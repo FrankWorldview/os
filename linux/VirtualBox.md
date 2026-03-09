@@ -28,6 +28,6 @@
 
 - `sudo apt update && sudo apt upgrade` # Every time before installing new packages
 
-- `sudo apt install libreoffice`
+- `sudo apt install libreoffice` # If you need LibreOffice
  
 - Edit .nanorc: `set tabsize 4`
