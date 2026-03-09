@@ -39,3 +39,5 @@
 - `sudo apt update && sudo apt upgrade` # Every time before installing new packages
 
 - `sudo apt install libreoffice` # If you need LibreOffice
+
+- `sudo apt install libreoffice-l10n-zh-tw libreoffice-help-zh-tw` # If you need LibreOffice traditional Chinese language pack
