@@ -1,7 +1,7 @@
 # Linux (Ubuntu)
 
 ## Free Learning Resources
-- [The Linux Command Line (by William Shotts)](https://linuxcommand.org/tlcl.php)
+- [The Linux Command Line](https://linuxcommand.org/tlcl.php)
 - [The Linux command line for beginners](https://documentation.ubuntu.com/desktop/en/latest/tutorial/the-linux-command-line-for-beginners/)
 - [Linux Tutorial](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/)
 - [鳥哥私房菜](https://linux.vbird.org/)
