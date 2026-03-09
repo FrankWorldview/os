@@ -41,3 +41,5 @@
 - `sudo apt install libreoffice` # If you need LibreOffice
 
 - `sudo apt install libreoffice-l10n-zh-tw libreoffice-help-zh-tw` # If you need LibreOffice traditional Chinese language pack
+
+- Change language of LibreOffice: Tools -> Options -> Languages and Locales -> General
