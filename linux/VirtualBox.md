@@ -28,6 +28,8 @@
 
 - Edit .nanorc: `set tabsize 4`
 
+- `sudo apt update && sudo apt upgrade` # Every time before installing new packages
+
 - `sudo apt install joe` # If you need the joe editor
 
 - `cp /etc/joe/joerc ~/.joerc` # Copy the global joe settings file to home
