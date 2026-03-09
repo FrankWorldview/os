@@ -24,6 +24,6 @@
   - `sudo apt install fcitx5 fcitx5-chinese-addons fcitx5-chewing`
   - `im-config`
   - `reboot`
-  - Config fcitx5: Uncheck "Only Show Current Language" and add new input methods.
+  - Config fcitx5: Uncheck "Only Show Current Language" and add new input methods (e.g., Chewing).
 
 - Edit .nanorc: `set tabsize 4`
