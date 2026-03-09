@@ -12,8 +12,7 @@
 
 - `sudo apt install bzip2`
 
-- 裝置 -> 插入 Guest Additions CD 映像 -> reboot
-- Devices -> Insert Guest Additions CD Image -> reboot)
+- 裝置 -> 插入 Guest Additions CD 映像 -> reboot (Devices -> Insert Guest Additions CD Image -> reboot)
 
 - 裝置 -> 共用剪貼簿 -> 雙向 (Devices -> Shared Clipboard -> Bidirectional)
 
