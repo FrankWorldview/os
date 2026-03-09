@@ -32,7 +32,7 @@
 
 - `cp /etc/joe/joerc ~/.joerc` # Copy the global joe settings file to home
 
-- Adjust ~/.joerc as you like.
+- Adjust ~/.joerc (e.g., enable "-nobackups").
 
 - `sudo apt update && sudo apt upgrade` # Every time before installing new packages
 
