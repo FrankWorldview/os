@@ -16,7 +16,7 @@
 
 - 檢視 -> 調整視窗大小 (View -> Adjust Window Size)
 
-- 裝置 -> 共用剪貼簿 -> 雙向 (Devices -> Shared Clipboard -> Bidirectional)
+- 裝置 -> 共用剪貼簿 -> 雙向 (Devices -> Shared Clipboard -> Bidirectional) (Reboot may be required.)
 
 - Settings -> Power -> Power Saving -> Screen Blank -> Never
 
