@@ -6,6 +6,10 @@
 - [Linux Tutorial](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/)
 - [鳥哥私房菜](https://linux.vbird.org/)
 
+- ## Non-free Books
+- [Mastering Ubuntu Server](https://www.packtpub.com/en-us/product/mastering-ubuntu-server-9781803235042)
+- [Ubuntu Linux Bible](https://www.wiley.com/en-us/Ubuntu+Linux+Bible%2C+11th+Edition-p-9781394349777)
+
 ## Package Managment
 ### Update Packages
 `sudo apt update && sudo apt upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
