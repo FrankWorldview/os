@@ -1,8 +1,8 @@
 # Linux (Ubuntu)
 
-## Online Learning Resources
-- [The Linux Command Line (by William Shotts)](https://linuxcommand.org/)
-- [Linux Journey](https://linuxjourney.com/)
+## Free Learning Resources
+- [The Linux Command Line (by William Shotts)]([https://linuxcommand.org/](https://linuxcommand.org/tlcl.php))
+- [The Linux command line for beginners]([https://documentation.ubuntu.com/desktop/en/latest/tutorial/the-linux-command-line-for-beginners/])
 - [Unix / Linux for Beginners](https://www.tutorialspoint.com/unix/index.htm)
 - [鳥哥私房菜](https://linux.vbird.org/)
 
