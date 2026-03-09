@@ -30,7 +30,7 @@
 
 - `sudo apt install joe` # If you need the joe editor
 
-- cp /etc/joe/joerc ~/.joerc # Copy the global joe settings file to home
+- `cp /etc/joe/joerc ~/.joerc` # Copy the global joe settings file to home
 
 - Adjust ~/.joerc as you like.
 
