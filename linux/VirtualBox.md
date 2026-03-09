@@ -26,8 +26,8 @@
   - `reboot`
   - Config fcitx5: Uncheck "Only Show Current Language" and add new input methods (e.g., Chewing).
 
-- `sudo apt update && sudo apt upgrade`
+- `sudo apt update && sudo apt upgrade` # Every time before installing new packages
 
-- `sudo apt install libreoffice` # Every time before installing new packages
+- `sudo apt install libreoffice`
  
 - Edit .nanorc: `set tabsize 4`
