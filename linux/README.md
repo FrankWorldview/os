@@ -3,7 +3,7 @@
 ## Free Learning Resources
 - [The Linux Command Line (by William Shotts)](https://linuxcommand.org/tlcl.php)
 - [The Linux command line for beginners](https://documentation.ubuntu.com/desktop/en/latest/tutorial/the-linux-command-line-for-beginners/)
-- [Unix / Linux for Beginners](https://www.tutorialspoint.com/unix/index.htm)
+- [Linux Tutorial](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/)
 - [鳥哥私房菜](https://linux.vbird.org/)
 
 ## Package Managment
