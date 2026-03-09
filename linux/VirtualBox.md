@@ -1,4 +1,6 @@
-- Increase video RAM; choose "NAT" or "Bridged networking"; choose USB 3.0. See [Chapter 6. Virtual Networking](https://www.virtualbox.org/manual/ch06.html) for VirtualBox networking modes.
+- Increase video RAM; choose "NAT" or "Bridged networking"; choose USB 3.0.
+
+- See [Chapter 6. Virtual Networking](https://www.virtualbox.org/manual/ch06.html) for VirtualBox networking modes.
 
 - `update-manager &` then reboot
 
