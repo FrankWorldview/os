@@ -93,5 +93,5 @@ sudo apt install openjdk-21-jdk
 
 sudo apt install python3
 
-## Foramt Your Code
+## Format Your Code
 alias cft='clang-format -style="{IndentWidth: 4, UseTab: Always, TabWidth: 4}" -i'
