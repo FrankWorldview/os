@@ -3,7 +3,6 @@
 ## Free Learning Resources
 - [Linux Tutorial](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/)
 - [The Linux Command Line](https://linuxcommand.org/tlcl.php)
-- [Manage Systemd Services with systemctl on Linux](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#restarting-and-reloading)
 
 ## Non-free Books
 - [Mastering Ubuntu Server](https://www.packtpub.com/en-us/product/mastering-ubuntu-server-9781803235042)
