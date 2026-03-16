@@ -5,11 +5,11 @@
 - [The Linux Command Line](https://linuxcommand.org/tlcl.php)
 - [Manage Systemd Services with systemctl on Linux](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#restarting-and-reloading)
 
-- ## Non-free Books
+## Non-free Books
 - [Mastering Ubuntu Server](https://www.packtpub.com/en-us/product/mastering-ubuntu-server-9781803235042)
 - [Ubuntu Linux Bible](https://www.wiley.com/en-us/Ubuntu+Linux+Bible%2C+11th+Edition-p-9781394349777)
 
-- ## Advanced Skills: OS Tuning
+## Advanced Skills: OS Tuning
 - [Tune Up: Optimizing Linux Performance](https://www.digitalocean.com/community/tutorials/tuning-linux-performance-optimization)
 
 ## Package Managment
