@@ -13,12 +13,12 @@
 
 ## Package Managment
 ### Update Packages
-`sudo apt update && sudo apt upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
-- sudo apt update → Refreshes the package lists from repositories.-
-- sudo apt upgrade -y → Installs all available package upgrades (-y automatically confirms).
-- sudo apt autoclean → Removes outdated package files from the cache.
-- sudo apt autoremove -y → Removes unused dependencies (-y automatically confirms).
-- sudo snap refresh → Updates all installed Snap packages.
+- `sudo apt update && sudo apt upgrade -y && sudo apt autoclean && sudo apt autoremove -y && sudo snap refresh`
+- `sudo apt update` → Refreshes the package lists from repositories.-
+- `sudo apt upgrade -y` → Installs all available package upgrades (-y automatically confirms).
+- `sudo apt autoclean` → Removes outdated package files from the cache.
+- `sudo apt autoremove -y` → Removes unused dependencies (-y automatically confirms).
+- `sudo snap refresh` → Updates all installed Snap packages.
 
 If you want a full upgrade, replacing upgrade with full-upgrade will also install kernel updates and handle dependencies better:
 
@@ -68,6 +68,7 @@ Every directory automatically has multiple hard links. The number of hard links 
 - `free -m` - display amount of free and used memory in the system
 - `df -h` - report file system space usage
 - `du -s * | sort -nr` - estimate file space usage and sort the result
+- `ls -la > file_name` - ">": redirect output to a file
 - `sync;sync;sync;reboot` - reboot
 - `sync;sync;sync;shutdown -h now` - poweroff
 
