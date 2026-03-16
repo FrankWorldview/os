@@ -67,8 +67,8 @@ Every directory automatically has multiple hard links. The number of hard links 
 - `top` - display processes
 - `free -m` - display amount of free and used memory in the system
 - `df -h` - report file system space usage
-- `du -s * | sort -nr` - estimate file space usage and sort the result
-- `ls -la > file_name` - ">": redirect output to a file
+- `du -s * | sort -nr` - "|": pipe; estimate file space usage and sort the result
+- `ls -la > file_name` - ">": redirect output to a file; list files and reirect the ouput to a file
 - `sync;sync;sync;reboot` - reboot
 - `sync;sync;sync;shutdown -h now` - poweroff
 
