@@ -1,3 +1,9 @@
+# Systemd Services
+
+- [Manage Systemd Services with systemctl on Linux](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units#restarting-and-reloading)
+
+- [How to Install Apache on Ubuntu](https://linuxize.com/post/how-to-install-apache-on-ubuntu-20-04/)
+
 # Apache HTTP Server
 
 `sudo apt install apache2` # Install Apache
