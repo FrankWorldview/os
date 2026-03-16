@@ -16,11 +16,13 @@
 
 `sudo systemctl stop apache2` # Stop Apache service
 
-`/etc/apache2/apache2.conf` # Apache's main config file
+/etc/apache2/apache2.conf # Apache's main config file
 
-`/etc/apache2/sites-available/000-default.conf` # Apache's default site configuration
+/etc/apache2/sites-available/000-default.conf # Apache's default site configuration
 
-`/var/www/html` # Apache's default root directory
+/var/www/html # Apache's default root directory
+
+`tail -f /var/log/apache2/access.log` # View Apache access log
 
 ## Optional: Use Per-User Directories
 `sudo a2enmod userdir` # Enable the module (mod_userdir)
