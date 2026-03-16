@@ -24,7 +24,7 @@
 
 `/var/www/html` # Apache's default root directory
 
-# Use Per-User Directories
+## Use Per-User Directories
 `sudo a2enmod userdir` # Enable the module (mod_userdir)
 
 `sudo systemctl restart apache2` # Restart Apache
