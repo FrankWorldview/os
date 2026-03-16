@@ -9,7 +9,7 @@
 - [Mastering Ubuntu Server](https://www.packtpub.com/en-us/product/mastering-ubuntu-server-9781803235042)
 - [Ubuntu Linux Bible](https://www.wiley.com/en-us/Ubuntu+Linux+Bible%2C+11th+Edition-p-9781394349777)
 
-- ## Advanced
+- ## Advanced Skills: OS Tuning
 - [Tune Up: Optimizing Linux Performance](https://www.digitalocean.com/community/tutorials/tuning-linux-performance-optimization)
 
 ## Package Managment
