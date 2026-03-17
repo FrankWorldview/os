@@ -10,7 +10,7 @@ The instructions work on:
 
 ---
 
-# 1. Check if GCC is Installed
+## 1. Check if GCC is Installed
 
 First check whether the C compiler (`gcc`) is installed.
 
@@ -28,9 +28,9 @@ If a version number appears, you are ready to go.
 
 ---
 
-# 2. Install GCC (if needed)
+## 2. Install GCC (if needed)
 
-## Ubuntu / Debian
+### Ubuntu / Debian
 
 ```bash
 sudo apt update
@@ -46,7 +46,7 @@ This installs:
 
 ---
 
-## macOS
+### macOS
 
 Install Xcode Command Line Tools:
 
@@ -56,7 +56,7 @@ xcode-select --install
 
 ---
 
-# 3. Write a C Program
+## 3. Write a C Program
 
 Create a file named:
 
@@ -79,7 +79,7 @@ int main() {
 
 ---
 
-# 4. Compile the Program
+## 4. Compile the Program
 
 Use `gcc` to compile the C source code.
 
@@ -95,7 +95,7 @@ a.out
 
 ---
 
-# 5. Run the Program
+## 5. Run the Program
 
 Execute the program with:
 
@@ -111,7 +111,7 @@ Hello, World!
 
 ---
 
-# 6. Give the Executable a Name
+## 6. Give the Executable a Name
 
 Instead of `a.out`, we usually give the program a meaningful name.
 
@@ -141,7 +141,7 @@ Hello, World!
 
 ---
 
-# 7. Recommended Compilation Flags
+## 7. Recommended Compilation Flags
 
 Enable compiler warnings:
 
@@ -153,7 +153,7 @@ gcc -Wall hello.c -o hello
 
 ---
 
-# 8. Example Workflow
+## 8. Example Workflow
 
 Typical programming workflow:
 
@@ -170,7 +170,7 @@ gcc -Wall hello.c -o hello
 
 ---
 
-# Summary
+## Summary
 
 | Step | Command |
 |-----|------|
